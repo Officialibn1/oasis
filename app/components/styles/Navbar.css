@@ -1,0 +1,79 @@
+/* navbar element styling */
+nav {
+	@apply outline flex items-center py-5 px-5 xl:px-0 relative;
+}
+
+/* logo component */
+nav .navLogo {
+	@apply p-3;
+}
+
+/* logo span element */
+nav .navLogo > span {
+	@apply flex items-center text-3xl gap-1 text-amber-500 font-bold;
+}
+
+/* logo svg styles */
+nav .navLogo > span > svg {
+	@apply text-4xl;
+}
+
+/* desktop links container */
+nav .desktopLinks {
+	@apply flex-1 hidden md:flex justify-center items-center;
+}
+
+/* desktop list element */
+nav .desktopLinks > ul {
+	@apply flex gap-5;
+}
+
+/* desktop nav links */
+nav .desktopLinks > ul li {
+	@apply text-xl;
+}
+
+/* navbar icon container */
+nav > .navIcons {
+	@apply p-3 hidden md:flex;
+}
+
+/* navbar icon span element */
+nav .navIcons span {
+	@apply flex text-4xl;
+}
+
+/* Mobile screen nav toggler */
+nav .toggleBtn {
+	@apply ml-auto p-2 flex items-center;
+}
+
+nav > .toggleBtn {
+	@apply md:hidden;
+}
+
+/* toggle button tag */
+nav .toggleBtn button {
+	@apply text-4xl text-amber-500 p-2 bg-slate-600/20 rounded-md;
+}
+
+/* mobile view navbar */
+nav .mobileNavbar {
+	@apply py-5 px-10 top-0 duration-300 ease-out w-full h-screen flex flex-col;
+	position: fixed;
+	backdrop-filter: blur(8px);
+}
+
+/* mobile links  ul list */
+nav .mobileNavbar > ul {
+	@apply flex flex-col gap-8 mt-20;
+}
+
+/* mobile links list item  */
+nav .mobileNavbar > ul li {
+	@apply text-xl font-light;
+}
+
+nav .mobileNavbar > .navIcons {
+	@apply p-3 flex mt-auto mb-10 justify-end;
+}
