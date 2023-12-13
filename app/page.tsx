@@ -1,17 +1,14 @@
-"use client";
-import Link from "next/link";
-import Image from "next/image";
-import { motion } from "framer-motion";
-import { useState } from "react";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 export default function Page() {
-	const [move, setMove] = useState(false);
-
 	return (
 		<section>
 			{/* Navbar component */}
 			<Navbar />
+
+			{/* hero container */}
+			<Hero />
 		</section>
 	);
 }
