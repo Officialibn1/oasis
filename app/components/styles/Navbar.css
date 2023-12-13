@@ -1,6 +1,6 @@
 /* navbar element styling */
 nav {
-	@apply outline flex items-center py-5 px-5 xl:px-0 relative;
+	@apply flex items-center py-5 px-5 xl:px-0 relative;
 }
 
 /* logo component */
@@ -30,7 +30,7 @@ nav .desktopLinks > ul {
 
 /* desktop nav links */
 nav .desktopLinks > ul li {
-	@apply text-xl;
+	@apply text-xl duration-300 ease-in-out md:hover:text-amber-500;
 }
 
 /* navbar icon container */
@@ -40,7 +40,7 @@ nav > .navIcons {
 
 /* navbar icon span element */
 nav .navIcons span {
-	@apply flex text-4xl;
+	@apply flex text-4xl duration-300 ease-in-out md:hover:text-amber-500 cursor-pointer;
 }
 
 /* Mobile screen nav toggler */
