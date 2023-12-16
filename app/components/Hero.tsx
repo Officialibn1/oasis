@@ -15,6 +15,7 @@ const Hero = () => {
 		<section>
 			<div className='sectionContainer'>
 				<motion.header className='heroSectionDesktop'>
+					{/* oasis balls container */}
 					<motion.div>
 						{/* each ball item desktop */}
 						<EthereumOasisBall
@@ -68,6 +69,14 @@ const Hero = () => {
 							ani={400}
 						/>
 					</motion.div>
+
+					{/* oasis header container */}
+					<div className='heroText'>
+						<h1>
+							Build on the <br />
+							Metaverse
+						</h1>
+					</div>
 				</motion.header>
 			</div>
 		</section>

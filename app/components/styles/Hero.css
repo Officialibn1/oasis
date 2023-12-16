@@ -1,10 +1,29 @@
 /* main hero motion container */
 .heroSectionDesktop {
-	@apply py-10 px-5 lg:px-0  flex;
+	@apply py-10 px-5 lg:px-0 flex flex-col;
 }
 
-.heroSectionDesktop > div {
-	@apply overflow-x-hidden w-full flex-col gap-5 outline outline-blue-100 hidden xl:flex;
+.heroSectionDesktop > div:first-child {
+	@apply overflow-x-hidden w-full flex-col gap-5 hidden xl:flex pt-5 pb-12;
 }
 
-/* each ball container */
+/* header text container */
+.heroText {
+	@apply flex items-center justify-center text-center w-full xl:mt-28;
+}
+
+/* hero h1 tag styles */
+.heroText > h1 {
+	@apply text-5xl md:text-7xl xl:text-9xl font-black;
+	background: linear-gradient(
+		45deg,
+		rgba(245, 159, 11, 0.8),
+		rgb(254, 180, 123, 0.75),
+		rgb(254, 180, 123, 0.8),
+		rgba(245, 159, 11, 0.7),
+		rgba(245, 159, 11, 0.55)
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}

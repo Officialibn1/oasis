@@ -26,8 +26,8 @@ export const BitcoinOasisBall = ({
 	return (
 		<motion.div
 			className={`bitcoinOasisBall ${height} ${width} `}
-			initial={{ x: ini }}
-			animate={{ x: ani }}
+			initial={{ x: ini, scale: 0.1 }}
+			animate={{ x: ani, scale: 1 }}
 			whileHover={{ scale: 1.1 }}
 			whileTap={{ scale: 0.9 }}
 			transition={{ duration: 0.4, ease: "linear" }}>

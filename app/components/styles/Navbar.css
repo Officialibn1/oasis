@@ -10,12 +10,23 @@ nav .navLogo {
 
 /* logo span element */
 nav .navLogo > span {
-	@apply flex items-center text-3xl gap-1 text-amber-500 font-bold;
+	@apply flex items-center text-3xl xl:text-5xl gap-1 font-bold lg:hover:opacity-80 ease-in-out duration-300 cursor-pointer;
+	background: linear-gradient(
+		45deg,
+		rgba(245, 159, 11, 0.8),
+		rgb(254, 180, 123, 0.75),
+		rgb(254, 180, 123, 0.8),
+		rgba(245, 159, 11, 0.7),
+		rgba(245, 159, 11, 0.55)
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
 }
 
 /* logo svg styles */
 nav .navLogo > span > svg {
-	@apply text-4xl;
+	@apply text-4xl xl:text-6xl text-amber-500/90;
 }
 
 /* desktop links container */
