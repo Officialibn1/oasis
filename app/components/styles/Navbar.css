@@ -62,6 +62,7 @@ nav .mobileNavbar {
 	@apply py-5 px-10 top-0 duration-300 ease-out w-full h-screen flex flex-col;
 	position: fixed;
 	backdrop-filter: blur(8px);
+	z-index: 30;
 }
 
 /* mobile links  ul list */

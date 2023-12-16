@@ -1,0 +1,6 @@
+/* main hero motion container */
+.heroSection {
+	@apply py-10 px-5 lg:px-0 outline overflow-x-hidden flex flex-col gap-5;
+}
+
+/* each ball container */

@@ -1,0 +1,25 @@
+/* bitcoin oasis ball styles */
+.bitcoinOasisBall {
+	@apply flex;
+	border-radius: 50%;
+	background: linear-gradient(-45deg, #ffa07a, #ffd700, #ffa07a);
+	opacity: 0.8;
+}
+
+/* bitcoin oasis ball svg styles */
+.bitcoinOasisBall > svg {
+	@apply m-auto rotate-12 opacity-90 text-slate-900;
+}
+
+/* ethereum styles */
+.ethereumOasisBall {
+	@apply flex;
+	border-radius: 50%;
+	background: linear-gradient(45deg, #6495ed, #00ced1);
+	opacity: 0.8;
+}
+
+/* ethereum oasis ball svg styles */
+.ethereumOasisBall > svg {
+	@apply m-auto rotate-6 opacity-90 text-slate-900;
+}
