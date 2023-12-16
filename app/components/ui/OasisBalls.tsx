@@ -13,6 +13,7 @@ type BallProp = {
 	width: string;
 	ini: number;
 	ani: number;
+	className?: string;
 };
 
 export const BitcoinOasisBall = ({
@@ -27,7 +28,9 @@ export const BitcoinOasisBall = ({
 			className={`bitcoinOasisBall ${height} ${width} `}
 			initial={{ x: ini }}
 			animate={{ x: ani }}
-			transition={{ duration: 0.6, ease: "linear" }}>
+			whileHover={{ scale: 1.1 }}
+			whileTap={{ scale: 0.9 }}
+			transition={{ duration: 0.4, ease: "linear" }}>
 			<IoLogoBitcoin className={font} />
 		</motion.div>
 	);
@@ -45,8 +48,10 @@ export const EthereumOasisBall = ({
 			className={`ethereumOasisBall ${height} ${width} `}
 			initial={{ x: ini, opacity: 0 }}
 			animate={{ x: ani, opacity: 1 }}
+			whileHover={{ scale: 1.1 }}
+			whileTap={{ scale: 0.9 }}
 			transition={{ duration: 0.6, ease: "linear" }}>
-			<LiaEthereum />
+			<LiaEthereum className={font} />
 		</motion.div>
 	);
 };
@@ -57,8 +62,10 @@ export const BNBOasisBall = ({ font, height, width, ini, ani }: BallProp) => {
 			className={`bNBOasisBall ${height} ${width} `}
 			initial={{ x: ini, opacity: 0 }}
 			animate={{ x: ani, opacity: 1 }}
+			whileHover={{ scale: 1.1 }}
+			whileTap={{ scale: 0.9 }}
 			transition={{ duration: 0.6, ease: "linear" }}>
-			<TbBrandBinance />
+			<TbBrandBinance className={font} />
 		</motion.div>
 	);
 };
@@ -75,8 +82,10 @@ export const TetherOasisBall = ({
 			className={`tetherOasisBall ${height} ${width} `}
 			initial={{ x: ini, opacity: 0 }}
 			animate={{ x: ani, opacity: 1 }}
+			whileHover={{ scale: 1.1 }}
+			whileTap={{ scale: 0.9 }}
 			transition={{ duration: 0.6, ease: "linear" }}>
-			<GiBlackHoleBolas />
+			<GiBlackHoleBolas className={font} />
 		</motion.div>
 	);
 };

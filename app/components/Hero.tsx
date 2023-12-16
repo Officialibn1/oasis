@@ -3,47 +3,71 @@
 import React from "react";
 import "@/app/components/styles/Hero.css";
 import { motion } from "framer-motion";
-import { BitcoinOasisBall, EthereumOasisBall } from "./ui/OasisBalls";
+import {
+	BNBOasisBall,
+	BitcoinOasisBall,
+	EthereumOasisBall,
+	TetherOasisBall,
+} from "./ui/OasisBalls";
 
 const Hero = () => {
 	return (
 		<section>
 			<div className='sectionContainer'>
-				<motion.header className='heroSection'>
-					{/* each ball item */}
-					<BitcoinOasisBall
-						font={"text-[80px]"}
-						height={"h-48"}
-						width={"w-48"}
-						ini={-200}
-						ani={80}
-					/>
-					{/* each ball item */}
-					<EthereumOasisBall
-						font={"text-[50px]"}
-						height={"h-16"}
-						width={"w-16"}
-						ini={1100}
-						ani={550}
-					/>
+				<motion.header className='heroSectionDesktop'>
+					<motion.div>
+						{/* each ball item desktop */}
+						<EthereumOasisBall
+							font={"text-[40px]"}
+							height={"h-20"}
+							width={"w-20"}
+							ini={1100}
+							ani={700}
+						/>
+						{/* each ball item desktop */}
+						<BitcoinOasisBall
+							font={"text-[80px]"}
+							height={"h-48"}
+							width={"w-48"}
+							ini={-200}
+							ani={280}
+						/>
+						{/* each ball item desktop */}
+						<EthereumOasisBall
+							font={"text-[25px]"}
+							height={"h-16"}
+							width={"w-16"}
+							ini={1100}
+							ani={950}
+						/>
 
-					{/* each ball item */}
-					<BitcoinOasisBall
-						font={"text-[45px]"}
-						height={"h-32"}
-						width={"w-32"}
-						ini={-180}
-						ani={180}
-					/>
+						{/* each ball item desktop */}
+						<BitcoinOasisBall
+							font={"text-[45px]"}
+							height={"h-32"}
+							width={"w-32"}
+							ini={-180}
+							ani={620}
+						/>
 
-					{/* each ball item */}
-					<EthereumOasisBall
-						font={"text-[50px]"}
-						height={"h-16"}
-						width={"w-16"}
-						ini={1500}
-						ani={700}
-					/>
+						{/* each ball item desktop */}
+						<BNBOasisBall
+							font={"text-[50px]"}
+							height={"h-28"}
+							width={"w-28"}
+							ini={1500}
+							ani={860}
+						/>
+
+						{/* each ball item desktop */}
+						<TetherOasisBall
+							font={"text-[50px]"}
+							height={"h-28"}
+							width={"w-28"}
+							ini={1500}
+							ani={400}
+						/>
+					</motion.div>
 				</motion.header>
 			</div>
 		</section>
