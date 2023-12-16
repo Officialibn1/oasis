@@ -23,3 +23,29 @@
 .ethereumOasisBall > svg {
 	@apply m-auto rotate-6 opacity-90 text-slate-900;
 }
+
+/* BNB styles */
+.bNBOasisBall {
+	@apply flex;
+	border-radius: 50%;
+	background: linear-gradient(45deg, #f3ba2f, #3e4095);
+	opacity: 0.8;
+}
+
+/* BNB oasis ball svg styles */
+.bNBOasisBall > svg {
+	@apply m-auto rotate-3 opacity-90 text-slate-900;
+}
+
+/* USDT styles */
+.tetherOasisBall {
+	@apply flex;
+	border-radius: 50%;
+	background: linear-gradient(45deg, #4caf50, #008cba);
+	opacity: 0.8;
+}
+
+/* USDT oasis ball svg styles */
+.tetherOasisBall > svg {
+	@apply m-auto opacity-90 text-slate-900;
+}

@@ -9,9 +9,7 @@ const Hero = () => {
 	return (
 		<section>
 			<div className='sectionContainer'>
-				<motion.header
-					className='heroSection'
-					transition={{ delayChildren: 0.6 }}>
+				<motion.header className='heroSection'>
 					{/* each ball item */}
 					<BitcoinOasisBall
 						font={"text-[80px]"}
@@ -20,14 +18,13 @@ const Hero = () => {
 						ini={-200}
 						ani={80}
 					/>
-
 					{/* each ball item */}
 					<EthereumOasisBall
 						font={"text-[50px]"}
 						height={"h-16"}
 						width={"w-16"}
-						ini={-70}
-						ani={350}
+						ini={1100}
+						ani={550}
 					/>
 
 					{/* each ball item */}
@@ -37,6 +34,15 @@ const Hero = () => {
 						width={"w-32"}
 						ini={-180}
 						ani={180}
+					/>
+
+					{/* each ball item */}
+					<EthereumOasisBall
+						font={"text-[50px]"}
+						height={"h-16"}
+						width={"w-16"}
+						ini={1500}
+						ani={700}
 					/>
 				</motion.header>
 			</div>

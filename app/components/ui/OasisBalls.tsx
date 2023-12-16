@@ -53,7 +53,11 @@ export const EthereumOasisBall = ({
 
 export const BNBOasisBall = ({ font, height, width, ini, ani }: BallProp) => {
 	return (
-		<motion.div className='bNBOasisBall'>
+		<motion.div
+			className={`bNBOasisBall ${height} ${width} `}
+			initial={{ x: ini, opacity: 0 }}
+			animate={{ x: ani, opacity: 1 }}
+			transition={{ duration: 0.6, ease: "linear" }}>
 			<TbBrandBinance />
 		</motion.div>
 	);
@@ -67,7 +71,11 @@ export const TetherOasisBall = ({
 	ani,
 }: BallProp) => {
 	return (
-		<motion.div className='tetherOasisBall'>
+		<motion.div
+			className={`tetherOasisBall ${height} ${width} `}
+			initial={{ x: ini, opacity: 0 }}
+			animate={{ x: ani, opacity: 1 }}
+			transition={{ duration: 0.6, ease: "linear" }}>
 			<GiBlackHoleBolas />
 		</motion.div>
 	);
