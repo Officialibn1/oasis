@@ -12,7 +12,7 @@ import {
 
 const Hero = () => {
 	return (
-		<section>
+		<section className='heroSection'>
 			<div className='sectionContainer'>
 				<motion.header className='heroSectionDesktop'>
 					{/* oasis balls container */}

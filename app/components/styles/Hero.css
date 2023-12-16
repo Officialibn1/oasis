@@ -1,3 +1,21 @@
+/* main hero section tag container */
+.heroSection {
+	background: radial-gradient(
+		circle at 80% 20%,
+		rgba(3, 7, 17, 0.951),
+		rgba(3, 7, 17, 0.85),
+		rgba(245, 159, 11, 0.3),
+		10%,
+		rgba(245, 159, 11, 0.2),
+		15%,
+		rgba(245, 159, 11, 0.2),
+		35%,
+		rgba(3, 7, 17, 0.85),
+		rgba(3, 7, 17, 0.951)
+	);
+	@apply pt-28;
+}
+
 /* main hero motion container */
 .heroSectionDesktop {
 	@apply py-10 px-5 lg:px-0 flex flex-col;

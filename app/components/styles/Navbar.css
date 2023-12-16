@@ -1,6 +1,7 @@
 /* navbar element styling */
 nav {
-	@apply flex items-center py-5 px-5 xl:px-0 relative;
+	@apply flex items-center py-5 px-5  fixed w-full top-0 left-0 z-10 lg:px-24;
+	/* backdrop-filter: blur(5px); */
 }
 
 /* logo component */
@@ -70,10 +71,9 @@ nav .toggleBtn button {
 
 /* mobile view navbar */
 nav .mobileNavbar {
-	@apply py-5 px-10 top-0 duration-300 ease-out w-full h-screen flex flex-col;
+	@apply py-5 px-10 top-0 duration-300 ease-out w-full h-screen flex flex-col z-30;
 	position: fixed;
-	backdrop-filter: blur(8px);
-	z-index: 30;
+	backdrop-filter: blur(15px) !important;
 }
 
 /* mobile links  ul list */

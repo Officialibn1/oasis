@@ -1,0 +1,57 @@
+/* community text main container */
+.communityText {
+	@apply px-5 py-10 grid grid-cols-1 gap-14 md:grid-cols-3 lg:max-w-[868px] lg:mx-auto lg:mt-28;
+}
+
+/* container wrapping the texts */
+.communityText > div:first-child {
+	@apply flex flex-col gap-2 py-2 md:col-span-2;
+}
+
+/* h3 text tag */
+.communityText > div:first-child > h3 {
+	@apply font-semibold text-lg text-slate-300/60;
+}
+
+/* h1 text tag */
+.communityText > div:first-child > h1 {
+	line-height: 2.5rem;
+	@apply text-[35px] font-bold lg:text-5xl;
+}
+
+/* p text tag */
+.communityText > div:first-child > p {
+	@apply text-lg font-medium text-slate-300/90;
+}
+
+/* community text buttons */
+.communityText > div:first-child > .communityTextButtons {
+	@apply flex gap-10 mt-10;
+}
+
+/* community text buttons */
+.communityText > div:first-child > .communityTextButtons button {
+	@apply px-6 py-4 font-semibold lg:hover:text-bunker-950 lg:hover:bg-slate-300/90 ease-in-out duration-300;
+	border: 1px solid rgb(203 213 225 / 0.9);
+	border-radius: 0.5rem;
+}
+
+/* community token number container */
+.communityText > div:last-child {
+	@apply grid grid-cols-1 gap-10 md:h-fit;
+}
+
+/* community token number individual number */
+.communityText > div:last-child .tokenNumber {
+	@apply md:h-fit;
+}
+
+/* community token number individual number h1 tag*/
+.communityText > div:last-child .tokenNumber > h1 {
+	@apply text-5xl font-black;
+}
+
+/* community token number individual number p tag*/
+.communityText > div:last-child .tokenNumber > p {
+	@apply text-xs font-extralight mt-2;
+}
