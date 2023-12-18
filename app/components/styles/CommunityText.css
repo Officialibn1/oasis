@@ -31,9 +31,24 @@
 
 /* community text buttons */
 .communityText > div:first-child > .communityTextButtons button {
-	@apply px-6 py-4 font-semibold lg:hover:text-bunker-950 lg:hover:bg-slate-300/90 ease-in-out duration-300;
-	border: 1px solid rgb(203 213 225 / 0.9);
+	@apply px-6 py-4 font-semibold text-[#f59f0bcc]  ease-in-out duration-300;
+	border: 1px solid rgba(245, 159, 11, 0.8);
 	border-radius: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+	.communityText > div:first-child > .communityTextButtons button:hover {
+		background: linear-gradient(
+			45deg,
+			rgba(245, 159, 11, 0.8),
+			rgb(254, 180, 123, 0.75),
+			rgb(254, 180, 123, 0.8),
+			rgba(245, 159, 11, 0.7),
+			rgba(245, 159, 11, 0.55)
+		);
+		color: rgb(203 213 225);
+		/* border: 1px solid transparent; */
+	}
 }
 
 /* community token number container */
