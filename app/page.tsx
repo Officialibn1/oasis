@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import CommunityText from "./components/CommunityText";
+import OasisHeart from "./components/ui/OasisHeart";
 
 export default function Page() {
 	return (
@@ -13,6 +14,9 @@ export default function Page() {
 
 			{/* community text */}
 			<CommunityText />
+
+			{/* cosmos heart text */}
+			<OasisHeart />
 		</section>
 	);
 }

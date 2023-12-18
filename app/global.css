@@ -12,3 +12,16 @@ body {
 .sectionContainer {
 	@apply max-w-screen-xl mx-auto;
 }
+
+.sectionWrapper {
+	@apply lg:max-w-[868px] lg:mx-auto lg:mt-28 px-5 py-10;
+}
+
+.sectionWrapper > h3 {
+	@apply font-semibold text-lg text-slate-300/60;
+}
+
+.sectionWrapper > h1 {
+	line-height: 2.5rem;
+	@apply text-[35px] font-bold lg:text-5xl;
+}
