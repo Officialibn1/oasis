@@ -1,0 +1,46 @@
+/* join oasis heading */
+.joinOasis > div > h1 {
+	line-height: 2.5rem;
+	@apply text-[35px] font-bold lg:text-5xl text-center gap-3;
+}
+
+/* join oasis card container */
+.joinOasis .joinOasisCards {
+	@apply grid grid-cols-1 gap-8 mt-16 md:grid-cols-3;
+}
+
+/* join oasis card styles */
+.joinOasisCards .joinOasisCard {
+	@apply p-3 rounded-2xl flex flex-col gap-1 lg:hover:border-indigo-400 border-transparent border;
+	background: linear-gradient(
+		285deg,
+		rgba(192, 192, 192, 0.15),
+		rgba(169, 169, 169, 0.1),
+		rgba(128, 128, 128, 0.2),
+		rgba(96, 96, 96, 0.3)
+	);
+}
+
+/* join oasis card h3 styles */
+.joinOasisCards .joinOasisCard h3 {
+	@apply text-sm md:text-lg font-semibold text-slate-400;
+}
+
+/* join oasis card h1 styles */
+.joinOasisCards .joinOasisCard h1 {
+	@apply text-3xl font-semibold mt-5 mb-2;
+}
+
+/* join oasis card p styles */
+.joinOasisCards .joinOasisCard p {
+	@apply text-lg font-light mb-12;
+}
+
+/* join oasis card svg styles */
+.joinOasisCards .joinOasisCard svg {
+	@apply text-4xl text-amber-400;
+}
+
+.joinOasisCards .joinOasisCard:hover svg {
+	@apply text-indigo-400;
+}

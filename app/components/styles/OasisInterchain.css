@@ -31,7 +31,7 @@
 
 /* second card */
 .oasisInterchainCard:nth-child(2) {
-	@apply lg:col-span-4;
+	@apply lg:col-span-4 lg:hover:border-amber-500;
 }
 
 /* third card */
@@ -46,7 +46,7 @@
 
 /* interchain cards h3 */
 .oasisInterchainCard h3 {
-	@apply text-sm font-semibold text-slate-400;
+	@apply text-sm md:text-lg font-semibold text-slate-400;
 }
 
 /* card icon container styles */
@@ -56,7 +56,12 @@
 
 /* card icon container styles */
 .oasisInterchainCard .secureIcon span {
-	@apply absolute -left-7 lg:-left-9 top-1 text-indigo-400/80 text-7xl lg:text-[140px] z-[5];
+	@apply absolute -left-7 lg:-left-9 top-1 text-indigo-400 text-7xl lg:text-[140px] z-[5];
+}
+
+/* second card icon container styles */
+.oasisInterchainCard:nth-child(2) .secureIcon span {
+	@apply text-amber-500;
 }
 
 /* card h1 styles */

@@ -41,7 +41,7 @@ const OasisInterchain = () => {
 		<div className='sectionWrapper oasisInterchain'>
 			<h1>
 				Oasis Interchain{" "}
-				<span className='text-violet-400/60'>
+				<span className='text-indigo-400'>
 					<FaLink />
 				</span>
 			</h1>
