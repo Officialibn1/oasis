@@ -29,7 +29,7 @@ const OasisTechnology = () => {
 	return (
 		<div className='sectionWrapper oasisTechnology'>
 			<h3>TECHNOLOGY</h3>
-			<h1>
+			<h1 className='mt-4'>
 				The most trusted way to <br /> build on the Metaverse.
 			</h1>
 

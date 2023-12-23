@@ -1,6 +1,20 @@
 /* oasis heart section wrapper */
 .oasisHeart {
 	@apply flex flex-col gap-3;
+	background: radial-gradient(
+		circle at 40% 50%,
+		rgba(60, 83, 140, 0.951),
+		rgba(3, 7, 17, 0.85),
+		rgba(72, 158, 152, 0.3),
+		8%,
+		rgba(72, 158, 152, 0.3),
+		10%,
+		rgba(68, 137, 193, 0.2),
+		10%,
+		rgba(157, 93, 222, 0.15),
+		20%,
+		rgba(3, 7, 17, 0.85)
+	);
 }
 
 /* oasis content container */

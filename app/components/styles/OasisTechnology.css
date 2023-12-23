@@ -1,3 +1,21 @@
+/* Oasis technology container wrapper */
+.oasisTechnology {
+	background: radial-gradient(
+		circle at 60% 60%,
+		rgba(3, 7, 17, 0.951),
+		rgba(3, 7, 17, 0.85),
+		rgba(245, 159, 11, 0.3),
+		8%,
+		rgba(245, 159, 11, 0.2),
+		10%,
+		rgba(245, 159, 11, 0.2),
+		10%,
+		rgba(245, 159, 11, 0.1),
+		20%,
+		rgba(3, 7, 17, 0.85)
+	);
+}
+
 /* Oasis technology main content wrapper */
 .oasisTechnologyContent {
 	@apply mt-12 grid grid-cols-1 gap-8 md:grid-cols-2;
