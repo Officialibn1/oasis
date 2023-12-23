@@ -10,18 +10,18 @@
 
 /* h3 text tag */
 .communityText > div:first-child > h3 {
-	@apply font-semibold text-lg text-slate-300/60;
+	@apply font-semibold text-lg text-slate-300/60 lg:text-xl;
 }
 
 /* h1 text tag */
 .communityText > div:first-child > h1 {
 	line-height: 2.5rem;
-	@apply text-[35px] font-bold lg:text-5xl;
+	@apply text-[35px] font-bold lg:text-6xl;
 }
 
 /* p text tag */
 .communityText > div:first-child > p {
-	@apply text-lg font-medium text-slate-300/90;
+	@apply text-lg font-medium text-slate-300/90 lg:text-xl;
 }
 
 /* community text buttons */
@@ -31,7 +31,7 @@
 
 /* community text buttons */
 .communityText > div:first-child > .communityTextButtons button {
-	@apply px-6 py-4 font-semibold text-[#f59f0bcc]  ease-in-out duration-300;
+	@apply px-6 py-4 font-semibold text-[#f59f0bcc]  ease-in-out duration-300 lg:text-lg;
 	border: 1px solid rgba(245, 159, 11, 0.8);
 	border-radius: 0.5rem;
 }
@@ -63,10 +63,10 @@
 
 /* community token number individual number h1 tag*/
 .communityText > div:last-child .tokenNumber > h1 {
-	@apply text-5xl font-black;
+	@apply text-5xl font-black lg:text-7xl;
 }
 
 /* community token number individual number p tag*/
 .communityText > div:last-child .tokenNumber > p {
-	@apply text-xs font-extralight mt-2;
+	@apply text-xs font-extralight mt-2 lg:text-sm;
 }

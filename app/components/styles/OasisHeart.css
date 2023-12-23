@@ -10,7 +10,7 @@
 
 /* oasis content container p tag*/
 .oasisHeartContent > p {
-	@apply text-lg text-slate-300 font-light;
+	@apply text-lg text-slate-300 font-light lg:text-xl;
 }
 
 /* oasis card card grid container */
@@ -30,12 +30,12 @@
 
 /* oasis heart individual card title */
 .oasisHeartCards > .oasisHeartCard .heartCardText h2 {
-	@apply text-lg text-slate-200 font-semibold;
+	@apply text-lg text-slate-200 font-semibold lg:text-xl;
 }
 
 /* oasis heart individual card paragraph */
 .oasisHeartCards > .oasisHeartCard .heartCardText p {
-	@apply text-sm text-slate-400 font-light;
+	@apply text-sm text-slate-400 font-light lg:text-lg;
 }
 
 /* oasis heart button container */
@@ -45,7 +45,7 @@
 
 /* oasis heart button */
 .oasisHeartCards > .oasisHeartCardsButton > button {
-	@apply text-[#f59f0bcc] flex items-center gap-3 px-6 py-3 rounded-lg font-semibold duration-300 ease-in-out;
+	@apply text-[#f59f0bcc] flex items-center gap-3 px-6 py-3 rounded-lg font-semibold duration-300 ease-in-out lg:text-lg;
 	border: 1px solid rgba(245, 159, 11, 0.8);
 }
 
