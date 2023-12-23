@@ -1,0 +1,55 @@
+/* Oasis technology main content wrapper */
+.oasisTechnologyContent {
+	@apply mt-12 grid grid-cols-1 gap-8 md:grid-cols-2;
+}
+
+/* Oasis technology main content divs  */
+.oasisTechnologyContent > div {
+	/* @apply outline; */
+}
+
+/* Oasis technology main content text */
+.oasisTechnologyContent .techText {
+	@apply flex flex-col gap-5 text-lg text-slate-400;
+}
+
+/* Oasis technology main content text span */
+.oasisTechnologyContent .techText span {
+	@apply text-slate-200 font-semibold;
+}
+
+/* Oaisis technology metric card */
+.oasisTechnologyContent .techMetrixCard {
+	@apply flex flex-col gap-2 md:h-fit;
+}
+
+/* Oaisis technology metric card h3 tag*/
+.oasisTechnologyContent .techMetrixCard h3 {
+	@apply text-sm font-bold text-slate-400 md:text-lg;
+}
+
+/* Oaisis technology metric card inner div */
+.oasisTechnologyContent .techMetrixCard > div {
+	@apply flex gap-5;
+}
+
+/* Oaisis technology metric card h1 tag*/
+.oasisTechnologyContent .techMetrixCard h1 {
+	@apply text-6xl font-black md:text-7xl;
+}
+
+/* targetting the last child  */
+.oasisTechnologyContent .techMetrixCard:nth-child(4) h1 {
+	@apply md:text-[68px];
+}
+
+/* Oaisis technology metric card innder div p tag*/
+.oasisTechnologyContent .techMetrixCard:nth-child(2) > div p {
+	@apply w-min text-lg md:text-xl font-semibold text-gray-400;
+	line-height: 24px;
+}
+
+/* Oaisis technology metric card p tag*/
+.oasisTechnologyContent .techMetrixCard p {
+	@apply text-sm font-light text-gray-400 md:text-base;
+}
