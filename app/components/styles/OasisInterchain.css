@@ -1,0 +1,70 @@
+/* interchain cards container */
+.oasisInterchainContents {
+	@apply mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-7;
+}
+
+/* interchain cards */
+.oasisInterchainCard {
+	@apply p-3 rounded-2xl relative flex flex-col gap-1 lg:hover:border-indigo-400 border-transparent border;
+	background: linear-gradient(
+		285deg,
+		rgba(192, 192, 192, 0.15),
+		rgba(169, 169, 169, 0.1),
+		rgba(128, 128, 128, 0.2),
+		rgba(96, 96, 96, 0.3)
+	);
+}
+
+/* first card */
+.oasisInterchainCard:nth-child(1) {
+	@apply lg:row-span-2 lg:col-span-3;
+}
+
+/* first card span */
+.oasisInterchainCard:nth-child(1) span {
+	/* @apply lg:text-[140px]; */
+}
+
+/* first card icon container */
+.oasisInterchainCard:nth-child(1) .secureIcon {
+}
+
+/* second card */
+.oasisInterchainCard:nth-child(2) {
+	@apply lg:col-span-4;
+}
+
+/* third card */
+.oasisInterchainCard:nth-child(3) {
+	@apply lg:col-span-2;
+}
+
+/* last card */
+.oasisInterchainCard:nth-child(4) {
+	@apply lg:col-span-2;
+}
+
+/* interchain cards h3 */
+.oasisInterchainCard h3 {
+	@apply text-sm font-semibold text-slate-400;
+}
+
+/* card icon container styles */
+.oasisInterchainCard .secureIcon {
+	@apply my-5 flex relative h-20 lg:h-40;
+}
+
+/* card icon container styles */
+.oasisInterchainCard .secureIcon span {
+	@apply absolute -left-7 lg:-left-9 top-1 text-indigo-400/80 text-7xl lg:text-[140px] z-[5];
+}
+
+/* card h1 styles */
+.oasisInterchainCard h1 {
+	@apply text-3xl font-semibold mt-5 mb-14;
+}
+
+/* card p styles */
+.oasisInterchainCard p {
+	@apply text-sm font-light text-slate-400 mt-auto;
+}

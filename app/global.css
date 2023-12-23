@@ -23,5 +23,5 @@ body {
 
 .sectionWrapper > h1 {
 	line-height: 2.5rem;
-	@apply text-[35px] font-bold lg:text-5xl;
+	@apply text-[35px] font-bold lg:text-5xl flex gap-3;
 }
