@@ -5,6 +5,7 @@ import OasisHeart from "./components/ui/OasisHeart";
 import OasisTechnology from "./components/OasisTechnology";
 import OasisInterchain from "./components/OasisInterchain";
 import JoinOasis from "./components/JoinOasis";
+import OasisNewsletter from "./components/OasisNewsletter";
 
 export default function Page() {
 	return (
@@ -29,6 +30,9 @@ export default function Page() {
 
 			{/* Join Oasis section */}
 			<JoinOasis />
+
+			{/* send email */}
+			<OasisNewsletter />
 		</section>
 	);
 }

@@ -9,6 +9,10 @@ body {
 	font-family: "Raleway", sans-serif;
 }
 
+body input:focus {
+	outline: none;
+}
+
 .sectionContainer {
 	@apply max-w-screen-xl mx-auto;
 }

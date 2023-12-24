@@ -1,0 +1,56 @@
+/* news letter container */
+.oasisNewsletter {
+	@apply my-28 flex flex-col gap-5;
+}
+
+/* text div container */
+.oasisNewsletter > div:nth-child(1) {
+	@apply flex flex-col gap-1 items-center text-center;
+}
+
+/* text div container h1 */
+.oasisNewsletter > div:nth-child(1) h1 {
+	@apply text-3xl font-semibold;
+}
+
+/* text div container p */
+.oasisNewsletter > div:nth-child(1) p {
+	@apply text-sm font-light text-slate-400;
+}
+
+/* input div container */
+.oasisNewsletter > div:nth-child(2) {
+	@apply flex h-max md:w-2/3 md:mx-auto rounded-xl overflow-hidden;
+
+	background: linear-gradient(
+		285deg,
+		rgba(192, 192, 192, 0.15),
+		rgba(169, 169, 169, 0.1),
+		rgba(128, 128, 128, 0.2),
+		rgba(96, 96, 96, 0.3)
+	);
+}
+
+/* input div container input */
+.oasisNewsletter > div:nth-child(2) > input {
+	@apply flex-1 bg-transparent px-4 py-4 outline-none border-transparent outline-transparent border-none focus:outline-none;
+}
+.oasisNewsletter > div:nth-child(2) > input:focus {
+	outline: transparent;
+	outline-width: 0px;
+	outline: none;
+	border: none;
+}
+
+/* input div container span */
+.oasisNewsletter > div:nth-child(2) div {
+	@apply w-14 flex items-center justify-center text-3xl text-slate-400 hover:text-slate-200 duration-200 ease-in-out cursor-pointer;
+}
+
+/* background: linear-gradient(
+	285deg,
+	rgba(192, 192, 192, 0.15),
+	rgba(169, 169, 169, 0.1),
+	rgba(128, 128, 128, 0.2),
+	rgba(96, 96, 96, 0.3)
+); */
