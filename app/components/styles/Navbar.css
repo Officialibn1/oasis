@@ -42,7 +42,7 @@ nav .desktopLinks > ul {
 
 /* desktop nav links */
 nav .desktopLinks > ul li {
-	@apply text-xl duration-300 ease-in-out md:hover:text-amber-500;
+	@apply text-xl font-semibold text-slate-400 duration-300 ease-in-out md:hover:text-amber-500;
 }
 
 /* navbar icon container */
@@ -52,7 +52,7 @@ nav > .navIcons {
 
 /* navbar icon span element */
 nav .navIcons span {
-	@apply flex text-4xl duration-300 ease-in-out md:hover:text-amber-500 cursor-pointer;
+	@apply flex text-4xl duration-300 ease-in-out md:hover:text-amber-500 cursor-pointer text-slate-400;
 }
 
 /* Mobile screen nav toggler */

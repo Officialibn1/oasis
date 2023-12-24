@@ -1,0 +1,34 @@
+/* footer container */
+.oasisFooter {
+	@apply flex flex-col gap-8;
+}
+
+/* logo container */
+.oasisFooterLogo {
+	@apply flex items-center justify-center text-5xl font-bold text-slate-400;
+}
+
+/* social icons container */
+.footerSocialIcons {
+	/* @apply; */
+}
+
+/* social icons ul tag */
+.footerSocialIcons ul {
+	@apply flex gap-5 justify-center;
+}
+
+/* social icons a tag */
+.footerSocialIcons a {
+	@apply rounded-xl p-2 text-2xl flex hover:text-slate-400 duration-200 ease-in-out;
+	border: 1px solid rgb(148 163 184);
+}
+
+/* disclaimer */
+.footerCopyRight {
+	@apply text-sm text-slate-400 font-light text-center;
+}
+
+.footerCopyRight a {
+	@apply text-amber-500;
+}

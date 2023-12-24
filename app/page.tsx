@@ -6,6 +6,7 @@ import OasisTechnology from "./components/OasisTechnology";
 import OasisInterchain from "./components/OasisInterchain";
 import JoinOasis from "./components/JoinOasis";
 import OasisNewsletter from "./components/OasisNewsletter";
+import Footer from "./components/Footer";
 
 export default function Page() {
 	return (
@@ -33,6 +34,9 @@ export default function Page() {
 
 			{/* send email */}
 			<OasisNewsletter />
+
+			{/* footer */}
+			<Footer />
 		</section>
 	);
 }
